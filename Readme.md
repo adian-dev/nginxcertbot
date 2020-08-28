@@ -20,7 +20,7 @@ docker run \
 
 ```
 web:
-  image: nginx
+  image: adiandev/nginxcertbot
   volumes:
     - ./nginx.conf:/etc/nginx/nginx.conf:ro
 	- /etc/letsencrypt:/etc/letsencrypt
